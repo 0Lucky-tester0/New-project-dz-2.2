@@ -4,8 +4,9 @@ public class Main {
     public static void main(String[] args) {
         int price = 1200; // сумма пополнения
         int check = 300; // счет клиента
-        int coefficient = 100; // сумма пополнения за 1 рубль бонуса
-       
+        int ratio = 100; // сумма пополнения за 1 рубль бонуса
+        if (price > 1000) {
+
 
         }
     }
