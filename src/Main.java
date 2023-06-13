@@ -3,12 +3,12 @@
 public class Main {
     public static void main(String[] args) {
         int total; // итоговая сумма счета 
-        int price = 1400; // сумма пополнения
+        int price = 1200; // сумма пополнения
         if (price > 1000) {
 
-            int check = 100; // счет клиента
-            int bonus = 100; // сумма пополнения за 1 рубль бонуса
-            total = (check + price) / bonus;
+            int check = 300; // счет клиента
+            int coefficient = 100; // сумма пополнения за 1 рубль бонуса
+            total = (check + price) / coefficient;
             System.out.println(total + check + price);
 
         }
