@@ -5,9 +5,9 @@ public class Main {
         int price = 1200; // сумма пополнения
         int check = 300; // счет клиента
         int ratio = 100; // сумма пополнения за 1 рубль бонуса
-        int bonus;
+        int bonus= price / ratio;
         if (price > 1000) {
-            System.out.println(bonus = (price / ratio);
+            System.out.println(bonus + price + check);
 
 
         }
